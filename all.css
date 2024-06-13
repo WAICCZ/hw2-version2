@@ -26,6 +26,9 @@ main{
 section{
     padding-top:120px;
 }
+footer{
+    padding-top:120px;
+}
 /* 調整導航項目樣式 */
 .nav-link {
     position:relative;
@@ -123,6 +126,17 @@ section{
     right: 0;
     filter: invert(100%) opacity(20%) saturate(7491%) hue-rotate(356deg) brightness(102%) contrast(108%) grayscale(0.8);
 }
+
+.colunm1 {
+    display: block;
+        margin-left: auto;
+        margin-right: 0;
+}
+.colunm2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
 .quote {
 	position: relative;
     display: flex;
@@ -167,10 +181,10 @@ section{
     background-color: #dddddd;
     color: #000000;
     padding: 5px 10px;
-    font-size: 8px;
+    font-size: 16px;
 }
 .small {
-    font-size:8px;
+    font-size:16px;
     color: #919191;
 }
 .pt {
@@ -184,6 +198,21 @@ ul {
 
 .li {
     width: 100%; /* 确保li标签不会影响布局宽度 */
+}
+.custom-link
+{
+    color: #aaaaaa; /* 这里设置为深灰色，你可以设置为任何颜色 */
+    text-decoration: none; /* 可选，去除下划线 */
+}
+.custom-link:active
+{
+    color: #bbbbbb; /* 这里设置为深灰色，你可以设置为任何颜色 */
+    text-decoration: none; /* 可选，去除下划线 */
+}
+.custom-link:hover
+{
+    color: #bbbbbb; /* 这里设置为深灰色，你可以设置为任何颜色 */
+    text-decoration: none; /* 可选，去除下划线 */
 }
 .button .u{
 	justify-content: center; /* 水平居中 */
